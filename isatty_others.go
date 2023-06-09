@@ -1,5 +1,5 @@
-//go:build appengine || js || nacl || wasm
-// +build appengine js nacl wasm
+//go:build appengine || js || nacl || wasm || wasi || wasip1
+// +build appengine js nacl wasm wasi wasip1
 
 package isatty
 
