@@ -1,6 +1,8 @@
-//go:build (darwin || freebsd || openbsd || netbsd || dragonfly || hurd) && !appengine
+//go:build (darwin || freebsd || openbsd || netbsd || dragonfly || hurd) && !appengine && !wasip1 && !wasi
 // +build darwin freebsd openbsd netbsd dragonfly hurd
 // +build !appengine
+// +build !wasip1
+// +build !wasi
 
 package isatty
 
